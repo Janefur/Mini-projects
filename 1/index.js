@@ -13,4 +13,4 @@ function randomColor() {
   body.style.backgroundColor = color;
 }
 
-//För att få en random färg behöver i RGB spektrat behöver man ha röd, grön och blå med nummer från allt mellan 0 och 255.(255(röd), 255(grön), 255(blå) är lika med vitt, 0, 0 , 0 är lika med svart.) Math.random ger en siffra mellan 0 och 1 så om man gångrar det med 255 får man en siffra mellan 0 och 255. Men det oss en siffra med en massa decimaler så då använder man Math.round för att runda av.
+//För att få en random färg i RGB spektrat behöver man ha röd, grön och blå med nummer från allt mellan 0 och 255.(255(röd), 255(grön), 255(blå) är lika med vitt, 0, 0 , 0 är lika med svart.) Math.random ger en siffra mellan 0 och 1 så om man gångrar det med 255 får man en siffra mellan 0 och 255. Men det oss en siffra med en massa decimaler så då använder man Math.round för att runda av.
